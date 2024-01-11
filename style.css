@@ -1,0 +1,218 @@
+.container {
+    margin: 0 auto;
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  
+  .container > div {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    flex-basis: 25%;
+  }
+  
+  .container > div a {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .container > div div {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .container > div img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0.5rem;
+  }
+  
+  .container > div a {
+    text-align: center;
+  }
+/* menu */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li {
+    margin-right: 1rem;
+}
+
+ul a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+ul a:hover {
+    background-color: bisque;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 70vh;
+    flex-direction: row;
+}
+
+input {
+    flex-grow: 1;
+    padding: 0.5rem;
+    border: 2px solid greenyellow;
+}
+
+.submit-button {
+    background-color: greenyellow;
+    color: black;
+    padding: 0.6rem 3rem;
+    border: none;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+/* Các sản phẩm */
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Chỉnh căn trái cho các phần tử con */
+    margin: 1rem;
+}
+
+div div {
+    display: flex;
+    align-items: center;
+}
+
+div img {
+    width: 80px;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+div span {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 0.5rem;
+}
+
+div a {
+    text-align: center;
+}
+
+/* Chỉnh thứ tự hiển thị phía bên phải */
+div:nth-child(even) {
+    margin-left: auto;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+  .section h3 {
+    position: absolute;
+    top: 18%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+.hidden {
+    display: none;
+}
+
+.nav1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 19rem;
+    margin-right: 18.9rem;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start; /* Align items to the left */
+}
+
+.ul1 li {
+    margin-right: 1rem;
+}
+
+.ul1 a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.ul1 a:hover {
+    background-color: bisque;
+}
+.nav1 img {
+    width: 40px;
+    height: auto;
+}
+.ul2{
+    flex-direction: column;
+    padding-inline-start: 0;
+    font-size: 10px;
+}
